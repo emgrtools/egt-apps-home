@@ -61,7 +61,7 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
     height: 280px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .card .app-images .content {
@@ -71,6 +71,10 @@ body {
 .card .app-images .content img {
     display: inline-block;
     height: 260px;
+}
+
+.card .store-link .title {
+    margin-top: 10px;
 }
 
 .card .store-link .title {
@@ -125,6 +129,11 @@ footer .left-controls {
     flex-direction: row;
     align-items: center;
     flex: 1;
+}
+
+footer .egt-link {
+    text-decoration: none;
+    line-height: 0;
 }
 
 footer .emgrtoolslogo {
